@@ -16,4 +16,4 @@ add_executable(integral_image
     )
     
 ADD_SUBDIRECTORY(tests)
-target_link_libraries(integral_image ${OPENCV_LIBS})
+target_link_libraries(integral_image ${OpenCV_LIBS})
